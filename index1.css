@@ -85,9 +85,10 @@ body {
     margin-top: 3%;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
 }
 
 .ft {
@@ -101,4 +102,9 @@ body {
 .copyr {
     margin-left: 30%;
     padding-bottom: 8px;
+}
+
+.foot-sect1 {
+    margin-left: 5%;
+    line-height: 9px;
 }
