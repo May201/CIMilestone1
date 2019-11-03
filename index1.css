@@ -4,6 +4,10 @@
     color: rgb(64, 88, 67);
 }
 
+.navbar-nav.navbar-link {
+    color: teal;
+}
+
 .navbar-nav li {
     padding-right: .6rem;
 }
@@ -19,25 +23,35 @@
     font-family: Lato, sans-serif;
 }
 
+.fasize {
+    font-size: 5rem;
+}
+
 .why-us {
+    margin-top: 5%;
+    font-family: Lato;
+    margin-bottom: 5%;
+}
+
+.why-us .row {
     margin-top: 5%;
 }
 
 .bg {
     margin-top: 5%;
     background-image: url(img/jouney.jpg);
-    background-size: cover;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
-    ;
+    background-color: rgb(0, 0, 0, .7);
+    background-blend-mode: overlay;
+    color: white;
 }
 
 .text {
-    position: relative;
-    z-index: -1;
+    color: white;
+    position: absolute;
 }
 
 footer {
