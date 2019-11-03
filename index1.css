@@ -1,3 +1,13 @@
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Satisfy', cursive;
+    color: rgb(64, 88, 67);
+}
+
+.navbar-nav li {
+    padding-right: .6rem;
+}
+
 .carousel-caption {
     top: 20%;
     bottom: auto;
@@ -13,12 +23,21 @@
     margin-top: 5%;
 }
 
-.about {
-    background-image: url(img/jouney.jpg);
-    opacity: .5;
-    height: 100%;
+.bg {
     margin-top: 5%;
+    background-image: url(img/jouney.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
     ;
+}
+
+.text {
+    position: relative;
+    z-index: -1;
 }
 
 footer {
