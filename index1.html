@@ -115,7 +115,7 @@
                 <div class="col-12 col-md-6">
                     <div class="media">
                         <div class="fasize">
-                            <i class="far fa-handshake mr-3" style="color:rgb(124, 169, 195)"></i>
+                            <i class="far fa-handshake mr-3" style="color:rgb(108, 173, 225)"></i>
                         </div>
                         <blockquote class="blockquote">
                             <h5><strong> Supplier Farms</strong></h5>
@@ -145,7 +145,7 @@
         <div class="bg">
             <div class="text">
                 <h2>ABOUT US</h2>
-                <p>We are on a journey.
+                <p>We at Farm To Home,are on a journey.
                     <hr>A journey to bring the best of the best produce to evryone.Founded from the passion for healthy living, the idea of Farm to Home was born in our kitchen.What started as person shopping trip to farms, expanded today to what you see.We
                     feel that each of us deseve to eat the best that nature provides and seasonal food is the best chioce sometimes.Encourging healthy and wholsome living is our spirit. </p>
                 <p>We at Farm to Home, are a family , we love the farms that supply us and we love the produce we deliver each day.Since 2006 we have been serving thousands of happy cutomers who remain in our family as they love farm to Home supply as much
@@ -202,7 +202,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Fruit Box</h4>
                             <p class="card-text">A basket of most delicious and freshly plucked fruits that will have you craving for more.</p>
-                            <button type="button" class="btn btn-success">Order Now</button>
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#order">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -213,8 +213,49 @@
     <div class="jumbotron">
         <h1>Sign up for Membership Discounts</h1>
         <p>Also avail free delivery for orders above EUR60.Hurry, offer ends on Dec2019</p>
-        <button class="btn btn-success" type="button">Sign Up </button>
+        <button class="btn btn-success text-center mr-auto" type="button" data-toggle="modal" data-target="#signup">Sign Up </button>
     </div>
+    <!--Modal -->
+    <div class="modal" tabindex="-1" role="dialog" id=signup>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal for orders-->
+    <div class="modal" tabindex="-1" role="dialog" id=order>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                </div>
+                <div class="modal-body">
+                    <p>Sorry ,we are not accepting orders today</p>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--Customer feedback-->
     <!--Footer-->
     <footer>
