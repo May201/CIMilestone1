@@ -12,6 +12,24 @@
     padding-right: .6rem;
 }
 
+.section3 {
+    background-image: url(img/apple.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimony {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    width: 75%;
+    margin-left: 10%;
+}
+
 .carousel-caption {
     top: 20%;
     bottom: auto;
