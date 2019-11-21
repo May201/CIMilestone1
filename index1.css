@@ -4,8 +4,9 @@
     color: rgb(64, 88, 67);
 }
 
-.navbar-nav.navbar-link {
-    color: teal;
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: hotpink;
 }
 
 .navbar-nav li {
