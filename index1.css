@@ -170,7 +170,7 @@ body {
     border-radius: 10px;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
     font-size: 16px;
-    padding: 10px 10px 10px 30px;
+    padding: 10px 10px 10px 10px;
 }
 
 .col-md-6 {
@@ -179,4 +179,14 @@ body {
 
 .feedback {
     padding: 3%;
+}
+
+.feedback h2,
+p {
+    margin-bottom: 2%;
+}
+
+.feedback img {
+    height: 60px;
+    width: 60px;
 }
