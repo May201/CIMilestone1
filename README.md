@@ -11,10 +11,39 @@ The users of this site could be those looking for online delivey channels for th
 Site owner's goal:
 The business owner wishes to encourage customer to shop their service .By providing information on the product , information on quality and other benefits, the owner is enbaling the customer to have a better shopping experience with online delivery service.
 
+UX
+
+User stories
+
+
+Wireframes/mockups
+
+
+Features
+All the features were added to enhance the UX and make using the website easy to use.
+
+Existing Features
+
+Features Left to Implement
+
+Technologies Used
  The technologies used for this project are mainly HTML, CSS , a little bit of JS was used to employ pop up modals and carousels with the help of Bootstrap
  Git has been used for version control .
  The IDE used for this project is Visual Studio Code.
  
+ Automated testing
+
+
+ Manual testing
+Features testing
+
+Browser support
+
+Responsive design
+
+Deployment
+
+Credits
  Pictures have been sourced from free sources such as Pexels,Unsplash and Pixabay.
  Inspiration for the site UX was recieved from browinsg other sites such as Lonely Planet, 
 
