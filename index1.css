@@ -1,3 +1,7 @@
+p {
+    font-family: Lato;
+}
+
 .navbar-brand {
     font-size: 2rem;
     font-family: 'Satisfy', cursive;
@@ -19,6 +23,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.abt {
+    font-size: 1.1rem;
 }
 
 .feedback {
@@ -56,15 +64,19 @@ blockquote p {
     margin-top: 3%;
 }
 
-@media screen and (max-width: 768px) {
-    .testimony {
-        height: 200px;
-    }
-}
-
 .carousel-caption {
     top: 20%;
     bottom: auto;
+}
+
+carousel-control-next-icon {
+    font-size: 55px;
+    color: red;
+}
+
+.carousel-control-prev-icon:after {
+    font-size: 55px;
+    color: red;
 }
 
 h5 {
@@ -75,6 +87,11 @@ h5 {
     overflow: none;
     height: 60%;
     font-family: Lato, sans-serif;
+}
+
+.carousel-control-next,
+carousel-control-prev {
+    opacity: 1;
 }
 
 .fasize {
