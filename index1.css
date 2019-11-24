@@ -56,6 +56,8 @@ blockquote p {
 
 .abt {
     font-size: 1.1rem;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .feedback {
