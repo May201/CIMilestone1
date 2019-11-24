@@ -19,6 +19,9 @@ As a user I am looking for online delivey channels for ease of shopping.
 
 Wireframe mockups have been produced via Balsamiq to accomadate mobile and desktop designs.
 
+![Wireframe for Desktop ](img/desktop.png)
+Format: ![Alt Text](img/desktop.png)
+
 
 ## Features
 
