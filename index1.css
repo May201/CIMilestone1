@@ -1,15 +1,15 @@
-p {
+body {
     font-family: Lato;
 }
 
 .navbar-brand {
     font-size: 2rem;
     font-family: 'Satisfy', cursive;
-    color: #2b8640;
+    color: #287a3b !important;
 }
 
-.navbar-nav .nav-link {
-    color: #2b8640;
+.nav-link {
+    color: #287a3b !important;
     font-weight: 500;
 }
 
