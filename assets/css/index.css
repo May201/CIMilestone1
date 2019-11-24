@@ -77,7 +77,7 @@ h5 {
 
 .bg {
     margin-top: 5%;
-    background-image: url(img/abt3.jpg);
+    background-image: url(assets/img/about.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -161,4 +161,14 @@ p {
 .feedback img {
     height: 60px;
     width: 60px;
+}
+
+
+/*To fix overflow*/
+
+.row,
+.container,
+.container-fluid {
+    padding: 0;
+    margin: 0;
 }

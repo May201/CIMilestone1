@@ -4,13 +4,45 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Farm To Home</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/favicon.jpg">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="index1.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <script src="https://kit.fontawesome.com/6496364836.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato|Pacifico|Pinyon+Script|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--This section of the code was taken from W3 Schools for smooth scroll behaviour that supports all browsers-->
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -66,7 +98,7 @@
 
             <div class="col-4 ">
                 <div class="card text-center mb-3 " style="width:20rem; ">
-                    <img class="card-img-top " src="img/setbox.jpg ">
+                    <img class="card-img-top " src="assets/img/salad.jpg ">
                     <div class="card-body ">
                         <h4 class="card-title ">Salad Box</h4>
                         <p class="card-text "> A bowl of freshness made for you from our best of the season and frshest produce, simple yet filling.</p>
@@ -76,7 +108,7 @@
             </div>
             <div class="col-4 ">
                 <div class="card text-center mb-3 " style="width:20rem; ">
-                    <img class="card-img-top " src="img/sala.jpg ">
+                    <img class="card-img-top " src="assets/img/setbox.jpg ">
                     <div class="card-body ">
                         <h4 class="card-title ">Set Box</h4>
                         <p class="card-text "> This is our in-house special choice of veggies and fruits chosen by the Farm to Home family.</p>
@@ -87,7 +119,18 @@
 
             <div class="col-4 ">
                 <div class="card text-center mb-3 " style="width:20rem; ">
-                    <img class="card-img-top " src="img/orange.jpg ">
+                    <img class="card-img-top " src="assets/img/gym.jpg ">
+                    <div class="card-body ">
+                        <h4 class="card-title ">Gym Box</h4>
+                        <p class="card-text "> Protein packed wholesome food that can be ordered with calorie adjustments .</p>
+                        <button type="button " class="btn btn-success " data-toggle="modal " data-target="#orderbox ">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 ">
+                <div class="card text-center mb-3 " style="width:20rem; ">
+                    <img class="card-img-top " src="assets/img/fruit.jpg ">
                     <div class="card-body ">
                         <h4 class="card-title ">Fruit Box</h4>
                         <p class="card-text "> A basket of most delicious and freshly plucked fruits that will have you craving for more.</p>
@@ -97,19 +140,10 @@
             </div>
 
 
+
             <div class="col-4 ">
                 <div class="card text-center mb-3 " style="width:20rem; ">
-                    <img class="card-img-top " src="img/gym.jpg ">
-                    <div class="card-body ">
-                        <h4 class="card-title ">Gym Box</h4>
-                        <p class="card-text "> Protein packed wholesome food that can be ordered with calorie adjustments .</p>
-                        <button type="button " class="btn btn-success " data-toggle="modal " data-target="#orderbox ">Order Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4 ">
-                <div class="card text-center mb-3 " style="width:20rem; ">
-                    <img class="card-img-top " src="img/makeurown.png ">
+                    <img class="card-img-top " src="assets/img/makeurown.jpg ">
                     <div class="card-body ">
                         <h4 class="card-title ">MakeYour Own</h4>
                         <p class="card-text "> We understand your individuality and hence let you build your own box of produce.</p>
@@ -119,7 +153,7 @@
             </div>
             <div class="col-4 ">
                 <div class="card text-center mb-3 " style="width:20rem; ">
-                    <img class="card-img-top " src="img/family.png ">
+                    <img class="card-img-top " src="assets/img/family.jpg ">
                     <div class="card-body ">
                         <h4 class="card-title ">Family Box</h4>
                         <p class="card-text "> Dinner table specials for family packages and added bonus points to cover your entire family.</p>
