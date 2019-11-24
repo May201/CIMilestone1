@@ -17,24 +17,21 @@ The business owner wishes to encourage customer to shop their service .By provid
 
 ### Wireframes-
 
-Wireframe mockups have been produced via Balsamiq to accomadate mobile and desktop designs.
+Wireframe  have been produced via Balsamiq to accomadate mobile and desktop designs.
 
-##### Wireframe for Desktop
+#### [Wireframe for Desktop ](img/desktop.png)
 
-![Wireframe for Desktop ](img/desktop.png)
-
-##### Wireframe for Mobile
-
-![Wireframe for Mobile ](img/mobile.png)
+#### [Wireframe for Mobile ](img/mobile.png)
 
 ## Features 
 
 All the features were added to enhance the UX and make using the website easy to use.
+A green theme has been mainatained throught out the website keeping in line with the product offering.
 
 ### Existing Features
 
-##### Feature 1:
- A single page scrollable website with a navigation links to different sections that allow ease of access.
+##### Feature 1: 
+A single page scrollable website with a navigation links to different sections that allow ease of access.
 ##### Feature 2: 
 Log In/Sign Up/View Plans button easily accessable from the landing page to help retain customer attention for those viewers just browsing the site.
 ##### Feature 3:
@@ -53,20 +50,25 @@ Footer with quick links , including social media and contact information.
 * Complete shopping experience including discount and checkout of the orders.
 * Product slider
 * Automated chatbox to help customers to place orders.
+* Login/sign ups that would perform actual registrations for user input.
 
 
 ## Technologies Used
 
 
- The technologies used for this project are mainly HTML, CSS , a little bit of JS was used to employ pop up modals and carousels with the help of Bootstrap.
+ The technologies used for this project are mainly HTML, CSS , a little bit of JS(Jquery) was used to employ pop up modals and carousels with the help of Bootstrap.
 
  [Bootstrap](https://getbootstrap.com/) was used to easily accomadate responsive design.
 
  [Git](https://github.com/) has been used for version control .
 
  The IDE used for this project is [Visual Studio Code](https://code.visualstudio.com/)
+ [Font awesome](https://fontawesome.com/) icons have also been used in this project for footer content and Features section.
+ [Google fonts](https://fonts.google.com/) used for font styles.
  
  ## Automated testing
+ HTML was validated using the [HTML validator ](https://validator.w3.org/)
+ CSS was also validated using the [CSS validator](https://jigsaw.w3.org/css-validator/).However no errors were found.
 
 
 ## Manual testing
@@ -100,10 +102,12 @@ Images were compressed online from [CompressImage](https://compressimage.toolur.
 
  Pictures have been sourced from free sources such as [Pexels](https://www.pexels.com/),[Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/).
 
+Mockups have been generated via [TechSini](https://techsini.com/multi-mockup/index.php)
+
  ## Acknowledgements
 
 
- Inspiration for the site UX was recieved from browinsg other sites such as Lonely Planet,Drop Chef etc..
+ Inspiration for the site UX was recieved from browinsg other sites such as [Lonely Planet](https://www.lonelyplanet.com/) , etc..
 
  
  
