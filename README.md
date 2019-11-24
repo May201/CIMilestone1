@@ -8,63 +8,59 @@
 
 The business owner wishes to encourage customer to shop their service .By providing information on the product , information on quality and other benefits, the owner is enbaling the customer to have a better shopping experience with added benefit of an online delivery service.
 
-#### User Stories
+### User Stories
 
 
-As a  user of this website I am looking for oragnically produced groceries.
-As a user I am environmentally conscious of my purchasing decisons and food preferences.
-As a user I am looking for online delivey channels for ease of shopping.
+* As a  user of this website I am looking for oragnically produced groceries.
+* As a user I am environmentally conscious of my purchasing decisons and food preferences.
+* As a user I am looking for online delivey channels for ease of shopping.
 
-#### Wireframes-
+### Wireframes-
 
 Wireframe mockups have been produced via Balsamiq to accomadate mobile and desktop designs.
 
+##### Wireframe for Desktop
+
 ![Wireframe for Desktop ](img/desktop.png)
-Format: ![Alt Text](img/desktop.png)
 
+##### Wireframe for Mobile
 
-## Features
+![Wireframe for Mobile ](img/mobile.png)
+
+## Features 
 
 All the features were added to enhance the UX and make using the website easy to use.
 
-#### Existing Features
+### Existing Features
 
-
-###### Feature 1:
- A single page scrollable website with a navigation links to different sections that allow ease of access. 
-
-
-###### Feature 2: 
-
+##### Feature 1:
+ A single page scrollable website with a navigation links to different sections that allow ease of access.
+##### Feature 2: 
 Log In/Sign Up/View Plans button easily accessable from the landing page to help retain customer attention for those viewers just browsing the site.
-
-###### Feature 3:
+##### Feature 3:
  Why choose us and About us section that details the service benefits over competitors/supermarket suppliers and an insight into the service.
-
-###### Feature 4 : 
+##### Feature 4 : 
 Various Purchase plans with links to a seperate page for more options.
-
-###### Feature 5:
+##### Feature 5:
 Jumbotron encouraging user to sign up for membership discounts and special offers.
-
-###### Feature 6:
- Footer with quick links , including social media and contact information.
-
-
-#### Features Left to Implement:
+##### Feature 6:
+Footer with quick links , including social media and contact information.
 
 
-1.Complete shopping experience including discount and checkout of the orders.
-2.product slider
-3.automated chatbox to help customers to place orders.
+### Features Left to Implement:
+
+
+* Complete shopping experience including discount and checkout of the orders.
+* Product slider
+* Automated chatbox to help customers to place orders.
 
 
 ## Technologies Used
 
 
- The technologies used for this project are mainly HTML, CSS , a little bit of JS was used to employ pop up modals and carousels with the help of Bootstrap
+ The technologies used for this project are mainly HTML, CSS , a little bit of JS was used to employ pop up modals and carousels with the help of Bootstrap.
 
- [Bootstrap](https://getbootstrap.com/)
+ [Bootstrap](https://getbootstrap.com/) was used to easily accomadate responsive design.
 
  [Git](https://github.com/) has been used for version control .
 
@@ -86,6 +82,7 @@ Features testing
 Browser support
 
 ## Responsive design
+The use of Bootstrap has helped the responsive design on this webiste.Customer feedback/testimonial section has reduced content on mobile layout to accomadate better UX.
 
 ## Deployment
 
@@ -94,9 +91,9 @@ Browser support
 
 [Stackoverflow](https://stackoverflow.com/) was useful in finding how to adjust font-size of blockquotes.
 
-[W3 Schools](https://www.w3schools.com/html/) was used for learning materail for this project.
+[W3 Schools](https://www.w3schools.com/html/) was used for learning materail for this project.I also used jquery code from their website to use smooth scroll behaviour across all browsers.
 
-Images were compressed online from [CompressImage](https://compressimage.toolur.com/)
+Images were compressed online from [CompressImage](https://compressimage.toolur.com/) and also from [Image Compressor](https://imagecompressor.com/)
 
 ## Media
 
