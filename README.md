@@ -1,4 +1,6 @@
 # [Farm To Home](https://may201.github.io/Farm-To-Home-/)
+
+![Mockups](img/mockups.png)
  This is a website for an imaginary service that provides fresh grocery supply directly from  organic farms to customer doorstep via an online delivery channel.The website aims to target potential customers to use the Farm to Home service over mass produced super market supply that are often sourced from farms using unsustainable farming techniques and with high pesticide content in their produce. 
 
  This milestone 1 project has been completed based on basics of HTML and CSS  learnt during the course at Code Institute.
@@ -42,7 +44,7 @@ Log In/Sign Up/View Plans button easily accessable from the landing page to help
  Why choose us and About us section that details the service benefits over competitors/supermarket suppliers and an insight into the service.
  
  
- *Feature 4 *-
+ *Feature 4*-
 Various Purchase plans with links to a seperate page for more options.
  
  
@@ -58,7 +60,6 @@ Footer with quick links , including social media and contact information.
 
 * Complete shopping experience including discount and checkout of the orders.
 * Product slider
-* Automated chatbox to help customers to place orders.
 * Login/sign ups that would perform actual registrations for user input.
 
 
@@ -108,7 +109,7 @@ Images were compressed online from [CompressImage](https://compressimage.toolur.
 ## Media
  Pictures have been sourced from free sources such as [Pexels](https://www.pexels.com/),[Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/).
 
-Mockups have been generated via [TechSini](https://techsini.com/multi-mockup/index.php)
+Mockups have been generated via [TechSini](https://techsini.com)
 
  ## Acknowledgements
 
