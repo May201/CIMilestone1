@@ -1,10 +1,9 @@
 # [Farm To Home](https://may201.github.io/Farm-To-Home-/)
 
-![GitHub Logo](assets/img/mockups.jpg)
-
+![Mockups](assets/img/Mockups.jpg)
  
 
- This is a website for an imaginary service that provides fresh grocery supply directly from  organic farms to customer doorstep via an online delivery channel.The website aims to target potential customers to use the Farm to Home service over mass produced super market supply that are often sourced from farms using unsustainable farming techniques and with high pesticide content in their produce. 
+  This is a website for an imaginary service that provides fresh grocery supply directly from  organic farms to customer doorstep via an online delivery channel.The website aims to target potential customers to use the Farm to Home service over mass produced super market supply that are often sourced from farms using unsustainable farming techniques and with high pesticide content in their produce. 
 
  This milestone 1 project has been completed based on basics of HTML and CSS  learnt during the course at Code Institute.
 
