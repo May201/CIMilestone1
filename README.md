@@ -32,14 +32,24 @@ A green theme has been mainatained throught out the website keeping in line with
 
  *Feature 1*- 
 A single page scrollable website with a navigation links to different sections that allow ease of access.
+ 
+ 
  *Feature 2*-
 Log In/Sign Up/View Plans button easily accessable from the landing page to help retain customer attention for those viewers just browsing the site.
+ 
+ 
  *Feature 3*-
  Why choose us and About us section that details the service benefits over competitors/supermarket suppliers and an insight into the service.
+ 
+ 
  *Feature 4 *-
 Various Purchase plans with links to a seperate page for more options.
+ 
+ 
  *Feature 5*-
 Jumbotron encouraging user to sign up for membership discounts and special offers.
+ 
+ 
  *Feature 6*-
 Footer with quick links , including social media and contact information.
 
@@ -67,6 +77,8 @@ Footer with quick links , including social media and contact information.
  
  ## Automated testing
  HTML was validated using the [HTML validator ](https://validator.w3.org/)
+
+
  CSS was also validated using the [CSS validator](https://jigsaw.w3.org/css-validator/).However no errors were found.
 
 
@@ -81,7 +93,7 @@ I also did manual testing for all the buttons links in the website and they appe
 Browser support
 
 ## Responsive design
-The use of Bootstrap has helped the responsive design on this webiste.Customer feedback/testimonial section has reduced content on mobile layout to accomadate better UX.
+The use of Bootstrap has helped the responsive design on this webiste.I chose to give three testimonials instead of four on the Customer feedback/testimonial section so as to accomdate a better user experience.
 
 ## Deployment
 The website was deployed by choosing the master branch under the Github pages in the settings option of the project repository.
@@ -101,7 +113,7 @@ Mockups have been generated via [TechSini](https://techsini.com/multi-mockup/ind
  ## Acknowledgements
 
 
- Inspiration for the site UX was recieved from browinsg other sites such as [Lonely Planet](https://www.lonelyplanet.com/) , etc..
+ Inspiration for the site UX was recieved from browinsg other sites such as [Lonely Planet](https://www.lonelyplanet.com/) 
 
  
  
