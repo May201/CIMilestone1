@@ -1,4 +1,4 @@
-# Farm To Home
+# [Farm To Home](https://may201.github.io/Farm-To-Home-/)
  This is a website for an imaginary service that provides fresh grocery supply directly from  organic farms to customer doorstep via an online delivery channel.The website aims to target potential customers to use the Farm to Home service over mass produced super market supply that are often sourced from farms using unsustainable farming techniques and with high pesticide content in their produce. 
 
  This milestone 1 project has been completed based on basics of HTML and CSS  learnt during the course at Code Institute.
@@ -15,7 +15,7 @@ The business owner wishes to encourage customer to shop their service .By provid
 * As a user I am environmentally conscious of my purchasing decisons and food preferences.
 * As a user I am looking for online delivey channels for ease of shopping.
 
-### Wireframes-
+### Wireframes
 
 Wireframe  have been produced via Balsamiq to accomadate mobile and desktop designs.
 
@@ -30,22 +30,21 @@ A green theme has been mainatained throught out the website keeping in line with
 
 ### Existing Features
 
-##### Feature 1: 
+ *Feature 1*- 
 A single page scrollable website with a navigation links to different sections that allow ease of access.
-##### Feature 2: 
+ *Feature 2*-
 Log In/Sign Up/View Plans button easily accessable from the landing page to help retain customer attention for those viewers just browsing the site.
-##### Feature 3:
+ *Feature 3*-
  Why choose us and About us section that details the service benefits over competitors/supermarket suppliers and an insight into the service.
-##### Feature 4 : 
+ *Feature 4 *-
 Various Purchase plans with links to a seperate page for more options.
-##### Feature 5:
+ *Feature 5*-
 Jumbotron encouraging user to sign up for membership discounts and special offers.
-##### Feature 6:
+ *Feature 6*-
 Footer with quick links , including social media and contact information.
 
 
 ### Features Left to Implement:
-
 
 * Complete shopping experience including discount and checkout of the orders.
 * Product slider
@@ -73,13 +72,11 @@ Footer with quick links , including social media and contact information.
 
 ## Manual testing
 
+Manual testing for responsivness was done using Chrome Developer Tools for different screen sizes.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-Features testing
+Sign Up form:
+Manual testing of the sign up form was done.Sample characters were added to the field for email address.However without @ or '.' characters, I was unable to proceed with the form.
+I also did manual testing for all the buttons links in the website and they appeared to be in order.
 
 Browser support
 
@@ -87,10 +84,9 @@ Browser support
 The use of Bootstrap has helped the responsive design on this webiste.Customer feedback/testimonial section has reduced content on mobile layout to accomadate better UX.
 
 ## Deployment
+The website was deployed by choosing the master branch under the Github pages in the settings option of the project repository.
 
 ## Credits
-
-
 [Stackoverflow](https://stackoverflow.com/) was useful in finding how to adjust font-size of blockquotes.
 
 [W3 Schools](https://www.w3schools.com/html/) was used for learning materail for this project.I also used jquery code from their website to use smooth scroll behaviour across all browsers.
@@ -98,8 +94,6 @@ The use of Bootstrap has helped the responsive design on this webiste.Customer f
 Images were compressed online from [CompressImage](https://compressimage.toolur.com/) and also from [Image Compressor](https://imagecompressor.com/)
 
 ## Media
-
-
  Pictures have been sourced from free sources such as [Pexels](https://www.pexels.com/),[Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/).
 
 Mockups have been generated via [TechSini](https://techsini.com/multi-mockup/index.php)
