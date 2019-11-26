@@ -93,7 +93,8 @@ Sign Up form:
 Manual testing of the sign up form was done.Sample characters were added to the field for email address.However without @ or '.' characters, I was unable to proceed with the form.
 I also did manual testing for all the buttons links in the website and they appeared to be in order.
 
-Browser support : 
+Browser support : The website is well supported for Firefox and Chrome.However on Internet explorer, the images under plans section were highly skewed.
+
 
 ## Responsive design
 The use of Bootstrap has helped the responsive design on this webiste.I chose to give three testimonials instead of four on the Customer feedback/testimonial section so as to accomdate a better user experience.
@@ -111,7 +112,7 @@ Images were compressed online from [CompressImage](https://compressimage.toolur.
 ## Media
  Pictures have been sourced from free sources such as [Pexels](https://www.pexels.com/),[Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/).
 
-Mockups have been generated via [TechSini](https://techsini.com)
+
 
  ## Acknowledgements
 
