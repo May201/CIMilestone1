@@ -104,6 +104,7 @@ footer {
     background-color: rgb(43, 68, 43);
     height: 26%;
     color: whitesmoke;
+    text-decoration: none;
 }
 
 .jumbotron {
@@ -141,6 +142,16 @@ body {
 .foot-sect1 {
     margin-left: 5%;
     line-height: 9px;
+    color: #ffffff;
+}
+
+.foot-sect1 a {
+    padding-left: 5px;
+    color: #ffffff;
+}
+
+.foot-sect1 a:hover {
+    color: #ffffff;
 }
 
 .comment {

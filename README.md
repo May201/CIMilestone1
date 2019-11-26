@@ -3,7 +3,7 @@
 ![Mockups](assets/img/Mockups.jpg)
  
 
-  This is a website for an imaginary service that provides fresh grocery supply directly from  organic farms to customer doorstep via an online delivery channel.The website aims to target potential customers to use the Farm to Home service over mass produced super market supply that are often sourced from farms using unsustainable farming techniques and with high pesticide content in their produce. 
+  Farm To Home is a website for an imaginary service that provides fresh grocery supply directly from  organic farms to customer doorstep via an online delivery channel.The website aims to target potential customers to use the Farm to Home service over mass produced super market supply that are often sourced from farms using unsustainable farming techniques and with high pesticide content in their produce. 
 
  This milestone 1 project has been completed based on basics of HTML and CSS  learnt during the course at Code Institute.
 
@@ -93,13 +93,13 @@ Sign Up form:
 Manual testing of the sign up form was done.Sample characters were added to the field for email address.However without @ or '.' characters, I was unable to proceed with the form.
 I also did manual testing for all the buttons links in the website and they appeared to be in order.
 
-Browser support
+Browser support : 
 
 ## Responsive design
 The use of Bootstrap has helped the responsive design on this webiste.I chose to give three testimonials instead of four on the Customer feedback/testimonial section so as to accomdate a better user experience.
 
 ## Deployment
-The website was deployed by choosing the master branch under the Github pages in the settings option of the project repository.
+The website was deployed by choosing the master branch under the Github pages in the settings option of the project repository.The deployed link can be found at (https://may201.github.io/Farm-To-Home-/)
 
 ## Credits
 [Stackoverflow](https://stackoverflow.com/) was useful in finding how to adjust font-size of blockquotes.
