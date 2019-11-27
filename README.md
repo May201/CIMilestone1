@@ -77,6 +77,7 @@ Footer with quick links , including social media and contact information.
  The IDE used for this project is [Visual Studio Code](https://code.visualstudio.com/)
  [Font awesome](https://fontawesome.com/) icons have also been used in this project for footer content and Features section.
  [Google fonts](https://fonts.google.com/) used for font styles.
+ [Autoprefixer](https://autoprefixer.github.io/) was used to accomdate the css animations for all browsers.
  
  ## Automated testing
  HTML was validated using the [HTML validator ](https://validator.w3.org/)
@@ -105,6 +106,7 @@ The website was deployed by choosing the master branch under the Github pages in
 
 ## Credits
 [Stackoverflow](https://stackoverflow.com/) was useful in finding how to adjust font-size of blockquotes.
+
 
 [W3 Schools](https://www.w3schools.com/html/) was used for learning materail for this project.I also used jquery code from their website to use smooth scroll behaviour across all browsers.
 
