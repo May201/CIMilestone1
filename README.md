@@ -70,7 +70,7 @@ Footer with quick links , including social media and contact information.
 
  The technologies used for this project are mainly HTML, CSS , a little bit of JS(Jquery) was used to employ pop up modals and carousels with the help of Bootstrap.
 
- [Bootstrap](https://getbootstrap.com/) was used to easily accomadate responsive design.
+ [Bootstrap](https://getbootstrap.com/) was used to easily accomadate responsive design, also jquery as part of bootstrap has been used for carousel .
 
  [Git](https://github.com/) has been used for version control .
 
@@ -93,11 +93,12 @@ Sign Up form:
 Manual testing of the sign up form was done.Sample characters were added to the field for email address.However without @ or '.' characters, I was unable to proceed with the form.
 I also did manual testing for all the buttons links in the website and they appeared to be in order.
 
-Browser support : The website is well supported for Firefox and Chrome.However on Internet explorer, the images under plans section were highly skewed.
+Browser support : The website is well supported for Firefox , Microsoft Edge and Chrome.However on Internet explorer, the images under plans section were highly skewed.
 
 
 ## Responsive design
 The use of Bootstrap has helped the responsive design on this webiste.I chose to give three testimonials instead of four on the Customer feedback/testimonial section so as to accomdate a better user experience.
+
 
 ## Deployment
 The website was deployed by choosing the master branch under the Github pages in the settings option of the project repository.The deployed link can be found at (https://may201.github.io/Farm-To-Home-/)
