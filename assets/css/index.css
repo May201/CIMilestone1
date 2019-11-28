@@ -2,6 +2,9 @@ body {
     font-family: Lato;
 }
 
+
+/*Navbar */
+
 .navbar-brand {
     font-size: 2rem;
     font-family: 'Satisfy', cursive;
@@ -22,10 +25,16 @@ body {
     padding-right: .6rem;
 }
 
+
+/*Carousel*/
+
 .carousel-caption {
     top: 20%;
     bottom: auto;
 }
+
+
+/*Features/Why Choose Us section */
 
 .fasize {
     font-size: 5rem;
@@ -54,25 +63,17 @@ blockquote p {
     font-size: 16px;
 }
 
+
+/*About Us section*/
+
 .abt {
     font-size: 1.1rem;
     margin-left: 3%;
     margin-right: 3%;
 }
 
-.feedback {
-    text-align: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.list-group {
-    padding-right: 10%;
-    margin-left: 4%;
-}
-
-h5 {
-    font-weight: bold;
+.title {
+    padding-top: 3%;
 }
 
 .bg {
@@ -89,30 +90,40 @@ h5 {
     text-align: center;
 }
 
-.title {
-    padding-top: 3%;
-}
 
-.text {
-    color: white;
-    position: absolute;
+/*Testimonial/customer feedback section*/
+
+.feedback {
     text-align: center;
-    margin-top: 2%;
-}
-
-footer {
-    background-color: rgb(43, 68, 43);
-    height: 26%;
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-.jumbotron {
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 60%;
     margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 3%;
+    margin-bottom: 1%;
 }
+
+.comment {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+}
+
+.col-md-6 {
+    margin-bottom: 2%;
+}
+
+.feedback h1,
+p {
+    margin-bottom: 2%;
+}
+
+.feedback img {
+    height: 60px;
+    width: 60px;
+}
+
+
+/*Plans and Options section*/
 
 .section-plans {
     margin-top: 3%;
@@ -133,17 +144,39 @@ footer {
     transform: scale(1.07);
 }
 
+
+/*Jumbotron*/
+
+.jumbotron {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 60%;
+    margin-top: 3%;
+}
+
+
+/*Footer*/
+
+.text {
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-top: 2%;
+}
+
+footer {
+    background-color: rgb(43, 68, 43);
+    height: 26%;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 .ft {
     margin-top: 3%;
 }
 
 .social {
     font-size: 1.5rem;
-}
-
-.copyr {
-    margin-left: 30%;
-    padding-bottom: 1px;
 }
 
 .foot-sect1 {
@@ -159,32 +192,6 @@ footer {
 
 .foot-sect1 a:hover {
     color: #ffffff;
-}
-
-.comment {
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
-    font-size: 16px;
-    padding: 10px 10px 10px 10px;
-}
-
-.col-md-6 {
-    margin-bottom: 2%;
-}
-
-.feedback {
-    padding: 3%;
-    margin-bottom: 1%;
-}
-
-.feedback h1,
-p {
-    margin-bottom: 2%;
-}
-
-.feedback img {
-    height: 60px;
-    width: 60px;
 }
 
 
