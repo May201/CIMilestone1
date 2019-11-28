@@ -5,12 +5,11 @@
 
   Farm To Home is a website for an imaginary service that provides fresh grocery supply directly from  organic farms to customer doorstep via an online delivery channel.The website aims to target potential customers to use the Farm to Home service over mass produced super market supply that are often sourced from farms using unsustainable farming techniques and with high pesticide content in their produce. 
 
- This milestone 1 project has been completed based on basics of HTML and CSS  learnt during the course at Code Institute.
 
-## UX
+## Strategy
+Easy accessibility of information  for the user and user friendly design were the main strategy for this project.
 
-
-The business owner wishes to encourage customer to shop their service .By providing information on the product , information on quality and other benefits, the owner is enbaling the customer to have a better shopping experience with added benefit of an online delivery service.
+The business owner wishes to encourage customer to shop their service .By providing information on the product , information on quality and other benefits, the owner is enbaling the customer to make informed choices,have a better shopping experience with added benefit of an online delivery service.
 
 ### User Stories
 
@@ -33,7 +32,6 @@ All the features were added to enhance the UX and make using the website easy to
 A green theme has been mainatained throught out the website keeping in line with the product offering.
 
 ### Existing Features
-
  *Feature 1*- 
 A single page scrollable website with a navigation links to different sections that allow ease of access.
  
@@ -80,7 +78,7 @@ Footer with quick links , including social media and contact information.
  [Autoprefixer](https://autoprefixer.github.io/) was used to accomdate the css animations for all browsers.
  
  ## Automated testing
- HTML was validated using the [HTML validator ](https://validator.w3.org/)
+ HTML was validated using the [HTML validator ](https://validator.w3.org/).Some errors relating to spacing were identified and fixed.
 
 
  CSS was also validated using the [CSS validator](https://jigsaw.w3.org/css-validator/).However no errors were found.
@@ -94,7 +92,7 @@ Sign Up form:
 Manual testing of the sign up form was done.Sample characters were added to the field for email address.However without @ or '.' characters, I was unable to proceed with the form.
 I also did manual testing for all the buttons links in the website and they appeared to be in order.
 
-Browser support : The website is well supported for Firefox , Microsoft Edge and Chrome.However on Internet explorer, the images under plans section were highly skewed.
+Browser support : The website is well supported for Firefox , Microsoft Edge and Chrome.However on Internet explorer, the images under plans section were highly skewed.Tried Auto prefixer option to fix it, but none was available .
 
 
 ## Responsive design
@@ -103,8 +101,10 @@ The use of Bootstrap has helped the responsive design on this webiste.I chose to
 
 ## Deployment
 The website was deployed by choosing the master branch under the Github pages in the settings option of the project repository.The deployed link can be found at (https://may201.github.io/Farm-To-Home-/)
+To run locally, clone repo directly by passing git clone command ,onto the terminal.
 
 ## Credits
+All contents used in this website are my own.
 [Stackoverflow](https://stackoverflow.com/) was useful in finding how to adjust font-size of blockquotes.
 
 
@@ -117,10 +117,6 @@ Images were compressed online from [CompressImage](https://compressimage.toolur.
 
 
 
- ## Acknowledgements
-
-
- Inspiration for the site UX was recieved from browinsg other sites such as [Lonely Planet](https://www.lonelyplanet.com/) 
 
  
  
