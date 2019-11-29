@@ -106,6 +106,7 @@ To run locally, clone repo directly by passing git clone command ,onto the termi
 ## Credits
 All contents used in this website are my own.
 [Stackoverflow](https://stackoverflow.com/) was useful in finding how to adjust font-size of blockquotes.
+linear gradient taken from (https://uigradients.com)
 
 
 [W3 Schools](https://www.w3schools.com/html/) was used for learning materail for this project.I also used jquery code from their website to use smooth scroll behaviour across all browsers.
