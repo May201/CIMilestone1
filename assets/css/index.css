@@ -1,205 +1,195 @@
-body {
-    font-family: Lato;
-}
-
-
-/*Navbar */
-
-.navbar-brand {
-    font-size: 2rem;
-    font-family: 'Satisfy', cursive;
-    color: #287a3b !important;
-}
-
-.nav-link {
-    color: #287a3b !important;
-    font-weight: 500;
-}
-
-.navbar-nav .nav-link:focus,
-.navbar-nav .nav-link:hover {
-    text-transform: uppercase;
-}
-
-.navbar-nav li {
-    padding-right: .6rem;
-}
-
-
-/*Carousel*/
-
-.carousel-caption {
-    top: 20%;
-    bottom: auto;
-}
-
-
-/*Features/Why Choose Us section */
-
-.fasize {
-    font-size: 5rem;
-}
-
-.why-us {
-    margin-top: 5%;
-    font-family: Lato;
-    margin-bottom: 5%;
-}
-
-.why-us .row {
-    margin-top: 5%;
-}
-
-blockquote {
-    background-color: #eee;
-    margin: 5%;
-    padding-top: 3%;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-blockquote,
-blockquote p {
-    font-size: 16px;
-}
-
-
-/*About Us section*/
-
-.abt {
-    font-size: 1.1rem;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-.title {
-    padding-top: 3%;
-}
-
-.bg {
-    margin-top: 5%;
-    background-image: url("../img/about.jpg");
-    height: 90vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(0, 0, 0, .6);
-    background-blend-mode: overlay;
-    color: white;
-    padding-right: 0%;
-    text-align: center;
-}
-
-
-/*Testimonial/customer feedback section*/
-
-.feedback {
-    text-align: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    padding: 3%;
-    margin-bottom: 1%;
-}
-
-.comment {
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
-    font-size: 16px;
-    padding: 10px 10px 10px 10px;
-}
-
-.col-md-6 {
-    margin-bottom: 2%;
-}
-
-.feedback h1,
-p {
-    margin-bottom: 2%;
-}
-
-.feedback img {
-    height: 60px;
-    width: 60px;
-}
-
-
-/*Plans and Options section*/
-
-.section-plans {
-    margin-top: 3%;
-}
-
-.card {
-    margin-top: 3%;
-    -webkit-transition: -webkit-transform .5s;
-    transition: -webkit-transform .5s;
-    -o-transition: transform .5s;
-    transition: transform .5s;
-    transition: transform .5s, -webkit-transform .5s;
-}
-
-.card:hover {
-    -webkit-transform: scale(1.07);
-    -ms-transform: scale(1.07);
-    transform: scale(1.07);
-}
-
-
-/*Jumbotron*/
-
-.jumbotron {
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 60%;
-    margin-top: 3%;
-}
-
-
-/*Footer*/
-
-.text {
-    color: white;
-    position: absolute;
-    text-align: center;
-    margin-top: 2%;
-}
-
-footer {
-    background-color: rgb(43, 68, 43);
-    height: 26%;
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-.ft {
-    margin-top: 3%;
-}
-
-.social {
-    font-size: 1.5rem;
-}
-
-.foot-sect1 {
-    margin-left: 5%;
-    line-height: 9px;
-    color: #ffffff;
-}
-
-.foot-sect1 a {
-    padding-left: 5px;
-    color: #ffffff;
-}
-
-.foot-sect1 a:hover {
-    color: #ffffff;
-}
-
-
-/*To fix overflow*/
-
-.row,
-.container,
-.container-fluid {
-    padding: 0;
-    margin: 0;
-}
+    body {
+        font-family: Lato;
+    }
+    /*Navbar */
+    
+    .navbar-brand {
+        font-size: 2rem;
+        font-family: 'Satisfy', cursive;
+        color: #287a3b !important;
+    }
+    
+    .nav-link {
+        color: #287a3b !important;
+        font-weight: 500;
+    }
+    
+    .navbar-nav .nav-link:focus,
+    .navbar-nav .nav-link:hover {
+        text-transform: uppercase;
+    }
+    
+    .navbar-nav li {
+        padding-right: .6rem;
+    }
+    /*Carousel*/
+    
+    .carousel-caption {
+        top: 20%;
+        bottom: auto;
+    }
+    /*Features/Why Choose Us section */
+    /*About Us section*/
+    
+    .abt {
+        font-size: 1.1rem;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+    .title {
+        padding-top: 3%;
+    }
+    
+    .bg {
+        margin-top: 5%;
+        background-image: url("../img/about.jpg");
+        height: 90vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(0, 0, 0, .6);
+        background-blend-mode: overlay;
+        color: white;
+        padding-right: 0%;
+        text-align: center;
+    }
+    /*Testimonial/customer feedback section*/
+    
+    .feedback {
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding: 3%;
+        margin-bottom: 1%;
+    }
+    
+    .comment {
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+        font-size: 16px;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .col-md-6 {
+        margin-bottom: 2%;
+    }
+    
+    .feedback h1,
+    p {
+        margin-bottom: 2%;
+    }
+    
+    .feedback img {
+        height: 60px;
+        width: 60px;
+    }
+    /*Plans and Options section*/
+    
+    .section-plans {
+        margin-top: 3%;
+    }
+    
+    .card {
+        margin-top: 3%;
+        -webkit-transition: -webkit-transform .5s;
+        transition: -webkit-transform .5s;
+        -o-transition: transform .5s;
+        transition: transform .5s;
+        transition: transform .5s, -webkit-transform .5s;
+    }
+    
+    .card:hover {
+        -webkit-transform: scale(1.07);
+        -ms-transform: scale(1.07);
+        transform: scale(1.07);
+    }
+    /*Jumbotron*/
+    
+    .jumbotron {
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 60%;
+        margin-top: 3%;
+    }
+    /*Footer*/
+    
+    .text {
+        color: white;
+        position: absolute;
+        text-align: center;
+        margin-top: 2%;
+    }
+    
+    footer {
+        background-color: rgb(43, 68, 43);
+        height: 26%;
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    
+    .ft {
+        margin-top: 3%;
+    }
+    
+    .social {
+        font-size: 1.5rem;
+    }
+    
+    .foot-sect1 {
+        margin-left: 5%;
+        line-height: 9px;
+        color: #ffffff;
+    }
+    
+    .foot-sect1 a {
+        padding-left: 5px;
+        color: #ffffff;
+    }
+    
+    .foot-sect1 a:hover {
+        color: #ffffff;
+    }
+    /*To fix overflow*/
+    
+    .row,
+    .container,
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #features .fas {
+        font-size: 6rem;
+        margin: 4%;
+    }
+    
+    .why-us {
+        text-align: center;
+        padding-bottom: 3px;
+    }
+    
+    #features {
+        margin: 3%;
+        padding: 2%;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .bg {
+            padding-bottom: 3%;
+            padding-top: 2%;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .feedback {
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        #features .container {
+            text-align: center;
+        }
+    }
