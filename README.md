@@ -76,6 +76,7 @@ Footer with quick links , including social media and contact information.
  [Font awesome](https://fontawesome.com/) icons have also been used in this project for footer content and Features section.
  [Google fonts](https://fonts.google.com/) used for font styles.
  [Autoprefixer](https://autoprefixer.github.io/) was used to accomdate the css animations for all browsers.
+ [Logogarden](https://www.logogarden.com/) was used to make logo for this website.
  
  ## Automated testing
  HTML was validated using the [HTML validator ](https://validator.w3.org/).Some errors relating to spacing were identified and fixed.
