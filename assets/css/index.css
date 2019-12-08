@@ -45,7 +45,7 @@
             .why-us {
                 padding-top: 2%;
             }
-            
+            /*The CSS for the gradient colors were sourced online from UI gradients*/
             #features {
                 padding: 3%;
                 margin: 4%;
@@ -192,7 +192,7 @@
                 padding: 0;
                 margin: 0;
             }
-            /*Meedia Queries for mobile layout*/
+            /*Media Queries for mobile layout*/
             
             @media only screen and (max-width: 768px) {
                 .feedback {
@@ -228,7 +228,7 @@
                     height: 70vh;
                 }
             }
-
+/*The CSS for the gradient colors were sourced online from uigradients*/
              .plans2 {
                 padding: 3%;
                 margin: 4%;
