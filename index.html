@@ -17,32 +17,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!--This section of the code was taken from W3 Schools for smooth scroll behaviour that supports all browsers-->
-    <script>
-        $(document).ready(function() {
-            // Add smooth scrolling to all links
-            $("a").on('click', function(event) {
 
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function() {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-        });
-    </script>
 </head>
 
 <body>
@@ -50,7 +25,7 @@
 
     <nav class="navbar  sticky-top navbar-expand-lg bg-light navbar-light">
         <!--navbar logo-->
-        <a class="navbar-brand"></i>Farm2Home</a>
+        <a class="navbar-brand"><img src="assets/img/1Logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
           <span class="navbar-toggler-icon" ></span>
         </button>
@@ -93,7 +68,7 @@
             </div>
             <!--2nd carousel page-->
             <div class="carousel-item ">
-                <img src="assets/img/farm2.jpg " alt="apple tree " class="d-block w-100 h-100 ">
+                <img src="assets/img/farm2.jpg" alt="apple tree " class="d-block w-100 h-100 ">
                 <div class="carousel-caption ">
                     <h1>Farm to Home</h1>
                     <h6><i>Organically produced,picked with care and delivered with love</h6></i>
@@ -112,8 +87,8 @@
         <!--Why Us section-->
         <section id="features">
             <div class="container text-center">
-                <h2 class="why-us">WHY CHOOSE US</h2>
-                <p class="why-us text-muted"> There are several reasons why you would love us and these are also the features that make us stand out from our competitors.</p>
+                <h1 class="why-us">WHY CHOOSE US</h1>
+                <p class="why-us "> There are several reasons why you would love us and these are also the features that make us stand out from our competitors.</p>
 
                 <div class="row">
                     <div class="col-sm-12 col-md-4">
@@ -140,27 +115,24 @@
         <!--About Us section-->
         <section id="about">
             <div class=" bg">
-                <div class="container">
 
-                    <div class="row">
-                        <div class="col-12">
 
-                            <h1 class="title ">ABOUT US</h1>
-                            <hr>
-                            <p1 class="abt ">We at Farm To Home,are on a journey.
-                                <hr>
-                            </p1>
-                            <p2 class="abt "> A journey to bring the best of the best produce to evryone.we were founded from the passion for healthy living.What started as personal shopping trip to farms, expanded today to what you see.Our over 5000 acres of farms use
-                                mordern yet sustainable means of farming and greenhouse facilities that ensures the best produce.We feel that each of us deseve to eat the best that nature provides and seasonal food is the best chioce sometimes.Encourging
-                                healthy and wholsome living is our spirit.
-                            </p2>
-                            <p3 id="hide">We at Farm to Home, are a family , we love the farms that supply us and we love the produce we deliver each day.Since 2006 we have been serving thousands of happy cutomers who remain in our family as they love farm to Home
-                                supply as much as we do.Our customer feedback is testimonial to that.</p3>
-                            <hr>
-                            <p4 class="abt ">Join us on this journey</p4>
-                        </div>
-                    </div>
-                </div>
+                <h1 class="title ">ABOUT US</h1>
+                <hr>
+                <p1 class="abt ">We at Farm To Home,are on a journey.
+                    <hr>
+                </p1>
+                <p2 class="abt "> A journey to bring the best of the best produce to evryone.we were founded from the passion for healthy living.What started as personal shopping trip to farms, expanded today to what you see.Our over 5000 acres of farms use mordern yet
+                    sustainable means of farming and greenhouse facilities that ensures the best produce.We feel that each of us deseve to eat the best that nature provides and seasonal food is the best chioce sometimes.Encourging healthy and wholsome
+                    living is our spirit.
+                </p2>
+                <hr>
+                <p3 id="hide">We at Farm to Home, are a family , we love the farms that supply us and we love the produce we deliver each day.Since 2006 we have been serving thousands of happy cutomers who remain in our family as they love farm to Home supply as much
+                    as we do.Our customer feedback is testimonial to that.</p3>
+                <hr>
+                <p4 class="abt ">Join us on this journey</p4>
+
+            </div>
         </section>
 
 
@@ -219,173 +191,200 @@
                     </div>
                 </div>
             </div>
-            </div>
-        </section>
+    </div>
+    </section>
 
 
-        <!--Plans-->
-        <section class="section-plans">
-            <div class="container-fluid padding">
-                <div class="row text-centre">
-                    <div class="col-12">
-                        <h1 class="plans text-center">PLANS & OPTIONS </h1>
-                        <p class="text-center">A healthier decision is a happier you.</p>
-                        <p class="text-center"> <a href="plans.html" target="_blank">Click here </a> to explore our whole range of plans and options for you and your family.</p>
-                    </div>
-                    <hr>
+    <!--Plans-->
+    <section class="section-plans">
+        <div class="container-fluid padding">
+            <div class="row text-centre">
+                <div class="col-12">
+                    <h1 class="plans text-center">PLANS & OPTIONS </h1>
+                    <p class="text-center">A healthier decision is a happier you.</p>
+                    <p class="text-center"> <a href="plans.html" target="_blank">Click here </a> to explore our whole range of plans and options for you and your family.</p>
                 </div>
+                <hr>
             </div>
-        </section>
-
-        <!--Bootstrap Cards with various choices for customers-->
-        <section class="plans">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-4">
-                        <div class="card text-center">
-                            <img class="card-img-top" src="assets/img/salad.jpg" alt="salad">
-                            <div class="card-body">
-                                <h4 class="card-title">Salad Box</h4>
-                                <p class="card-text"> A bowl of freshness made for you from our best of the season and frshest produce, simple yet filling.</p>
-                                <button type="button" class="btn btn-success " data-toggle="modal" data-target="#orderbox">Order Now</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4">
-                        <div class="card text-center">
-                            <img class="card-img-top" src="assets/img/setbox.jpg" alt="Basket of grocery">
-                            <div class="card-body">
-                                <h4 class="card-title">Set Box</h4>
-                                <p class="card-text"> This is our in-house special choice of veggies and fruits chosen by the Farm to Home family.</p>
-                                <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#orderbox">Order Now</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-4">
-                        <div class="card text-center">
-                            <img class="card-img-top" src="assets/img/makeurown.jpg" alt="Cooking table">
-                            <div class="card-body">
-                                <h4 class="card-title">Make Your Own</h4>
-                                <p class="card-text"> We understand your individuality and hence let you build your own box of our Farm to Home produce.</p>
-                                <button type="button" class="btn btn-success " data-toggle="modal" data-target="#orderbox">Order Now</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-
-        <!--Jumbotron-->
-        <div class="jumbotron text-center">
-            <h3>Sign up Today for Special Membership Discounts !</h3>
-            <p>Also get 10% off your first order and avail free delivery for orders above €39.99.Hurry, offer ends on 30 Dec 2019 !!</p>
-            <button class="btn btn-success text-center mr-auto" type="button" data-toggle="modal" data-target="#signup">Sign Up </button>
-
         </div>
+    </section>
+
+    <!--Bootstrap Cards with various choices for customers-->
+    <section class="plans">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="assets/img/salad.jpg" alt="salad">
+                        <div class="card-body">
+                            <h4 class="card-title">Salad Box</h4>
+                            <p class="card-text"> A bowl of freshness made for you from our best of the season and frshest produce, simple yet filling.</p>
+                            <button type="button" class="btn btn-success " data-toggle="modal" data-target="#orderbox">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="assets/img/setbox.jpg" alt="Basket of grocery">
+                        <div class="card-body">
+                            <h4 class="card-title">Set Box</h4>
+                            <p class="card-text"> This is our in-house special choice of veggies and fruits chosen by the Farm to Home family.</p>
+                            <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#orderbox">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="assets/img/makeurown.jpg" alt="Cooking table">
+                        <div class="card-body">
+                            <h4 class="card-title">Make Your Own</h4>
+                            <p class="card-text"> We understand your individuality and hence let you build your own box of our Farm to Home produce.</p>
+                            <button type="button" class="btn btn-success " data-toggle="modal" data-target="#orderbox">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
-        <!--Modal for orders button-->
-        <div class="modal" tabindex="-1" role="dialog" id="orderbox">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Oops!</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+    <!--Jumbotron-->
+    <div class="jumbotron text-center">
+        <h3>Sign up Today for Special Membership Discounts !</h3>
+        <p>Also get 10% off your first order and avail free delivery for orders above €39.99.Hurry, offer ends on 30 Dec 2019 !!</p>
+        <button class="btn btn-success text-center mr-auto" type="button" data-toggle="modal" data-target="#signup">Sign Up </button>
+
+    </div>
+
+
+    <!--Modal for orders button-->
+    <div class="modal" tabindex="-1" role="dialog" id="orderbox">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Oops!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <p>Sorry ,we are not accepting orders today.</p>
-                        <img src="assets/img/pumpkin.jpg " alt="pumpkin face">
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Sorry ,we are not accepting orders today.</p>
+                    <img src="assets/img/pumpkin.jpg " alt="pumpkin face">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!--Modal for signUpForms-->
+    <!--Modal for signUpForms-->
 
-        <div class="modal" tabindex="-1" role="dialog" id="signup">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Sign Up </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <div class="modal" tabindex="-1" role="dialog" id="signup">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="box1">
+            <div class="row ft">
+                <div class="col-6 ft">
+                    <div class="foot-sect1">
+                        <h6><i class="fas fa-leaf"></i> Farm To Home</h6>
+                        <p> <i class="far fa-address-card"></i><a href="#about">About Us</a>
+                        </p>
+                        <p><a href="plans.html">Plans</a></p>
+
+                        <!--social media links-->
+                        <p>Connect With Us</p>
+                        <div class="social">
+                            <a href="https://www.facebook.com/login.php" target="_blank">
+                                <i class="fab fa-facebook-square mr-1"></i>
+                            </a>
+                            <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
+                                <i class="fab fa-instagram mr-1"></i>
+                            </a>
+                            <a href="https://twitter.com/login/" target="_blank">
+                                <i class="fab fa-twitter-square mr-1"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <i class="fab fa-youtube-square"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="password">Password</label>
-                                <input type="password" class="form-control" id="password" placeholder="Password">
-                            </div>
-                            <div class="form-group">
-                                <label for="repeatPassword">Repeat Password</label>
-                                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
-                            </div>
-                            <button type="submit" class="btn btn-success">Submit</button>
-                        </form>
-                    </div>
+                </div>
+
+                <!--contact us section -->
+                <div class="col-6 ft">
+                    <h5 id="contact">Contact Us</h5>
+                    <p>123,St.Annes Lane,Dublin 99</p>
+                    <i class="fas fa-phone-square-alt"> + 145 2929009</i>
+                    <p><i class="fas fa-envelope-square"> info@farmtohome.com</i></p>
+                    <h6>Copyright <i class="far fa-copyright">2019</i></h6>
 
                 </div>
             </div>
         </div>
-        <!--Footer-->
-        <footer class="footer">
-            <div class="box1">
-                <div class="row ft">
-                    <div class="col-6 ft">
-                        <div class="foot-sect1">
-                            <h6><i class="fas fa-leaf"></i> Farm To Home</h6>
-                            <p> <i class="far fa-address-card"></i><a href="#about">About Us</a>
-                            </p>
-                            <p><a href="plans.html">Plans</a></p>
 
-                            <!--social media links-->
-                            <p>Connect With Us</p>
-                            <div class="social">
-                                <a href="https://www.facebook.com/login.php" target="_blank">
-                                    <i class="fab fa-facebook-square mr-1"></i>
-                                </a>
-                                <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
-                                    <i class="fab fa-instagram mr-1"></i>
-                                </a>
-                                <a href="https://twitter.com/login/" target="_blank">
-                                    <i class="fab fa-twitter-square mr-1"></i>
-                                </a>
-                                <a href="https://www.youtube.com/" target="_blank">
-                                    <i class="fab fa-youtube-square"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+    </footer>
 
-                    <!--contact us section -->
-                    <div class="col-6 ft">
-                        <h5 id="contact">Contact Us</h5>
-                        <p>123,St.Annes Lane,Dublin 99</p>
-                        <i class="fas fa-phone-square-alt"> + 145 2929009</i>
-                        <p><i class="fas fa-envelope-square"> info@farmtohome.com</i></p>
-                        <h6>Copyright <i class="far fa-copyright">2019</i></h6>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
 
-                    </div>
-                </div>
-            </div>
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-        </footer>
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 
 </body>
 

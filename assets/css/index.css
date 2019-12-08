@@ -1,202 +1,230 @@
-                                                                                                    body {
-                                                                                                    font-family: Lato;
-                                                                                                }
-                                                                                                /*Navbar */
-                                                                                                
-                                                                                                .navbar-brand {
-                                                                                                    font-size: 2rem;
-                                                                                                    font-family: 'Satisfy', cursive;
-                                                                                                    color: #287a3b !important;
-                                                                                                }
-                                                                                                
-                                                                                                .nav-link {
-                                                                                                    color: #287a3b !important;
-                                                                                                    font-weight: 500;
-                                                                                                }
-                                                                                                
-                                                                                                .navbar-nav .nav-link:focus,
-                                                                                                .navbar-nav .nav-link:hover {
-                                                                                                    text-transform: uppercase;
-                                                                                                }
-                                                                                                
-                                                                                                .navbar-nav li {
-                                                                                                    padding-right: .6rem;
-                                                                                                }
-                                                                                                /*Carousel*/
-                                                                                                
-                                                                                                .carousel-caption {
-                                                                                                    top: 20%;
-                                                                                                    bottom: auto;
-                                                                                                }
-                                                                                                /*Features/Why Choose Us section */
-                                                                                                /*About Us section*/
-                                                                                                
-                                                                                                .abt {
-                                                                                                    font-size: 1.1rem;
-                                                                                                    margin-left: 3%;
-                                                                                                    margin-right: 3%;
-                                                                                                }
-                                                                                                
-                                                                                                .title {
-                                                                                                    padding-top: 3%;
-                                                                                                }
-                                                                                                
-                                                                                                .bg {
-                                                                                                    margin-top: 5%;
-                                                                                                    background-image: url("../img/about.jpg");
-                                                                                                    height: 100%;
-                                                                                                    background-position: center;
-                                                                                                    background-repeat: no-repeat;
-                                                                                                    background-size: cover;
-                                                                                                    background-color: rgb(0, 0, 0, .6);
-                                                                                                    background-blend-mode: overlay;
-                                                                                                    color: white;
-                                                                                                    text-align: center;
-                                                                                                    padding-bottom: 4%;
-                                                                                                }
-                                                                                                /*Testimonial/customer feedback section*/
-                                                                                                
-                                                                                                .feedback {
-                                                                                                    text-align: center;
-                                                                                                    margin-top: 3%;
-                                                                                                    margin-bottom: 3%;
-                                                                                                    padding: 3%;
-                                                                                                    margin-bottom: 1%;
-                                                                                                }
-                                                                                                
-                                                                                                .comment {
-                                                                                                    border-radius: 10px;
-                                                                                                    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
-                                                                                                    font-size: 16px;
-                                                                                                    padding: 10px 10px 10px 10px;
-                                                                                                }
-                                                                                                
-                                                                                                .col-md-6 {
-                                                                                                    margin-bottom: 2%;
-                                                                                                }
-                                                                                                
-                                                                                                .feedback h1,
-                                                                                                p {
-                                                                                                    margin-bottom: 2%;
-                                                                                                }
-                                                                                                
-                                                                                                .feedback img {
-                                                                                                    height: 60px;
-                                                                                                    width: 60px;
-                                                                                                }
-                                                                                                /*Plans and Options section*/
-                                                                                                
-                                                                                                .section-plans {
-                                                                                                    margin-top: 3%;
-                                                                                                }
-                                                                                                
-                                                                                                .card {
-                                                                                                    margin-top: 3%;
-                                                                                                    -webkit-transition: -webkit-transform .5s;
-                                                                                                    transition: -webkit-transform .5s;
-                                                                                                    -o-transition: transform .5s;
-                                                                                                    transition: transform .5s;
-                                                                                                    transition: transform .5s, -webkit-transform .5s;
-                                                                                                }
-                                                                                                
-                                                                                                .card:hover {
-                                                                                                    -webkit-transform: scale(1.07);
-                                                                                                    -ms-transform: scale(1.07);
-                                                                                                    transform: scale(1.07);
-                                                                                                }
-                                                                                                /*Jumbotron*/
-                                                                                                
-                                                                                                .jumbotron {
-                                                                                                    margin-left: 5%;
-                                                                                                    margin-right: 5%;
-                                                                                                    height: 60%;
-                                                                                                    margin-top: 3%;
-                                                                                                }
-                                                                                                /*Footer*/
-                                                                                                
-                                                                                                .text {
-                                                                                                    color: white;
-                                                                                                    position: absolute;
-                                                                                                    text-align: center;
-                                                                                                    margin-top: 2%;
-                                                                                                }
-                                                                                                
-                                                                                                footer {
-                                                                                                    background-color: rgb(43, 68, 43);
-                                                                                                    height: 26%;
-                                                                                                    color: whitesmoke;
-                                                                                                    text-decoration: none;
-                                                                                                }
-                                                                                                
-                                                                                                .ft {
-                                                                                                    margin-top: 3%;
-                                                                                                }
-                                                                                                
-                                                                                                .social {
-                                                                                                    font-size: 1.5rem;
-                                                                                                }
-                                                                                                
-                                                                                                .foot-sect1 {
-                                                                                                    margin-left: 5%;
-                                                                                                    line-height: 9px;
-                                                                                                    color: #ffffff;
-                                                                                                }
-                                                                                                
-                                                                                                .foot-sect1 a {
-                                                                                                    padding-left: 5px;
-                                                                                                    color: #ffffff;
-                                                                                                }
-                                                                                                
-                                                                                                .foot-sect1 a:hover {
-                                                                                                    color: #ffffff;
-                                                                                                }
-                                                                                                /*To fix overflow*/
-                                                                                                
-                                                                                                .row,
-                                                                                                .container,
-                                                                                                .container-fluid {
-                                                                                                    padding: 0;
-                                                                                                    margin: 0;
-                                                                                                }
-                                                                                                
-                                                                                                #features .fas {
-                                                                                                    font-size: 6rem;
-                                                                                                    margin: 4%;
-                                                                                                }
-                                                                                                
-                                                                                                .why-us {
-                                                                                                    padding-top: 3%;
-                                                                                                }
-                                                                                                
-                                                                                                #features {
-                                                                                                    padding: 3%;
-                                                                                                    margin: 5%;
-                                                                                                    background: #ADA996;
-                                                                                                    /* fallback for old browsers */
-                                                                                                    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
-                                                                                                    /* Chrome 10-25, Safari 5.1-6 */
-                                                                                                    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
-                                                                                                    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-                                                                                                }
-                                                                                                
-                                                                                                @media only screen and (max-width: 768px) {
-                                                                                                    .feedback {
-                                                                                                        margin-left: 3%;
-                                                                                                        margin-right: 3%;
-                                                                                                    }
-                                                                                                }
-                                                                                                
-                                                                                                @media only screen and (max-width:768px) {
-                                                                                                    .bg,
-                                                                                                    .feedback,
-                                                                                                    .section-plans,
-                                                                                                    .plans,
-                                                                                                    .footer {
-                                                                                                        margin: 5%;
-                                                                                                    }
-                                                                                                }
-                                                                                                
-                                                                                                @media only screen and (max-width:768px) {
-                                                                                                    #hide {
-                                                                                                        display: none;
-                                                                                                    }
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Satisfy', cursive;
+    color: #287a3b !important;
+}
+
+.nav-link {
+    color: #287a3b !important;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+    text-transform: uppercase;
+}
+
+.navbar-nav li {
+    padding-right: .6rem;
+}
+
+
+/*Carousel*/
+
+.carousel-caption {
+    top: 20%;
+    bottom: auto;
+}
+
+
+/*Features-*/
+
+#features .fas {
+    font-size: 6rem;
+    margin: 4%;
+}
+
+.why-us {
+    padding-top: 2%;
+}
+
+#features {
+    padding: 3%;
+    margin: 4%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(12, 131, 65, 0.2);
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/*About Us section*/
+
+.abt {
+    font-size: 1.1rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 4%;
+}
+
+.title {
+    padding-top: 4%;
+}
+
+.bg {
+    margin-top: 3%;
+    background-image: url("../img/about.jpg");
+    height: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-4size: cover; */
+    background-color: rgb(0, 0, 0, .6);
+    background-blend-mode: overlay;
+    color: white;
+    text-align: center;
+    padding: 2% 4% 4% 4%;
+}
+
+.bg p {
+    margin: 4%;
+}
+
+
+/*Testimonial/customer feedback section*/
+
+.feedback {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 3%;
+    margin-bottom: 1%;
+}
+
+.comment {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+}
+
+.col-md-6 {
+    margin-bottom: 2%;
+}
+
+.feedback h1,
+p {
+    margin-bottom: 2%;
+}
+
+.feedback img {
+    height: 60px;
+    width: 60px;
+}
+
+
+/*Plans and Options section*/
+
+.section-plans {
+    margin-top: 3%;
+}
+
+.card {
+    margin-top: 3%;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    -o-transition: transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
+}
+
+
+/*Jumbotron*/
+
+.jumbotron {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 60%;
+    margin-top: 3%;
+}
+
+
+/*Footer*/
+
+.text {
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-top: 2%;
+}
+
+footer {
+    background-color: rgb(43, 68, 43);
+    height: 26%;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.ft {
+    margin-top: 3%;
+}
+
+.social {
+    font-size: 1.5rem;
+}
+
+.foot-sect1 {
+    margin-left: 5%;
+    line-height: 9px;
+    color: #ffffff;
+}
+
+.foot-sect1 a {
+    padding-left: 5px;
+    color: #ffffff;
+}
+
+.foot-sect1 a:hover {
+    color: #ffffff;
+}
+
+
+/*To fix overflow*/
+
+.row,
+.container,
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Meedia Queries for mobile layout*/
+
+@media only screen and (max-width: 768px) {
+    .feedback {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .bg,
+    .feedback,
+    .section-plans,
+    .plans,
+    .footer {
+        margin: 5%;
+    }
+    #hide {
+        display: none;
+    }
+    .pp {
+        padding: 3%;
+        margin: 4%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 1px rgba(12, 131, 65, 0.2);
+        background: #ECE9E6;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
